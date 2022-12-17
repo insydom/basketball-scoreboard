@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Cursed";
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    background: #1B244A;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    margin-right: 100px;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 40px;
+    width: 149px;
+    height: 36px;
+}
+
+.score {
+    color: #F94F6D;
+    font-family: Cursed;
+    background-color: #080001;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.score h1 {
+    font-size: 90px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 80px;
+}
+
+.scores button:last-child {
+    margin-right: 0;
+}
+
+button {
+    font-family: Cursed;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    padding: 10px 7.5px;
+    margin-right: 9px;
+    border-radius: 5px;
+}
+
+#container-extra {
+    margin-top: 30px;
+}
+
+#period-section, #fouls-section {
+    margin-top: 25px;
+}
+
+#period-text, #fouls-text {
+    font-family: Cursed;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    padding: 10px 7.5px;
+    border-radius: 5px;
+}
+
+#period-btn, #fouls-button {
+    width: 100%;
+}
+
+#footer {
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}

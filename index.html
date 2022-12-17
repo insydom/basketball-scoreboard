@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="home">
+        <h2>HOME</h2>
+        <div class="score">
+          <h1 id="home-score">0</h1>
+        </div>
+        <div class="scores">
+          <button onclick="addHome1()">+1</button>
+          <button onclick="addHome2()">+2</button>
+          <button onclick="addHome3()">+3</button>
+        </div>
+        <div id="period-section">
+          <button id="fouls-button" onclick="period()">PERIOD +1 &darr;</button>
+          <h1 id="period-text">None</h1>
+        </div>
+      </div>
+
+      <div id="guest">
+        <h2>GUEST</h2>
+        <div class="score">
+          <h1 id="guest-score">0</h1>
+        </div>
+        <div class="scores">
+          <button onclick="addGuest1()">+1</button>
+          <button onclick="addGuest2()">+2</button>
+          <button onclick="addGuest3()">+3</button>
+        </div>
+        <div id="fouls-section">
+          <button id="period-btn" onclick="foul()">FOULS +1 &darr;</button>
+          <h1 id="fouls-text">None</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="container-extra">
+      <button onclick="restart()">Start a New Game</button>
+    </div>
+
+    <p id="footer">
+      Take a look at my GitHub
+      <a href="https://github.com/insydom" target="_blank">here.</a>
+    </p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
